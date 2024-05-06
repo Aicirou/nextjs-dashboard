@@ -35,7 +35,7 @@ export default function LoginForm() {
                 type="email"
                 name="email"
                 value="user@nextmail.com"
-                placeholder="Enter your email address"
+{/*                 placeholder="Enter your email address" */}
                 required
               />
               <AtSymbolIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
@@ -55,7 +55,7 @@ export default function LoginForm() {
                 type="password"
                 name="password"
                 value="123456"
-                placeholder="Enter password"
+{/*                 placeholder="Enter password" */}
                 required
                 minLength={6}
               />
